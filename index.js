@@ -3,7 +3,7 @@ let heroi = "Jayce";
 let saldoVitorias
 let nivel
 
-// chamada da funcao ConferirNivel e atribuicao do resultado a variavel 'nivel' usando como parametro a variavel 'saldoVitorias' que o retorno da funcao calcularRanking
+// chamada da funcao ConferirNivel e atribuicao do resultado a variavel 'nivel' usando como parametro a variavel 'saldoVitorias', que tem como retorno o resultado da funcao calcularRanking
 nivel = ConferirNivel(saldoVitorias = calcularRanking(80,8))
 
 // mensagem de saida para informar o nivel do heroi
